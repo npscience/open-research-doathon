@@ -1,0 +1,24 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Intro blurb
+
+```{r}
+library(tidyverse) #tidyverse complete package to plot data
+library(readr)
+tools.data <- read_csv("https://raw.githubusercontent.com/npscience/open-research-doathon/master/101innovations-npscience-lifesci-analysistools-counts.csv")
+tools.data = tools.data[-1,] #spawn daughter dataset without first row, name as data
+#head(tools.data)
+toptools.data = filter(tools.data, `grand-total` > 100) #filter dataset to only tools with frequency of use >100
+toptools.data$tool <- factor(toptools.data$tool, levels = toptools.data$tool) #tell R the dataset is already ordered from high to low frequency
+#head(toptools.data)
+ggplot(data = toptools.data) + geom_bar(mapping = aes(x=toptools.data$tool, y=toptools.data$`grand-total`), stat = "identity") + xlab('Data analysis tool') + ylab('Frequency of users') #plot barchart of tools versus count data; since count data is already calculated, turn-off geom's autosum with stat = "identity"
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file).

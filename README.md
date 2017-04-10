@@ -1,3 +1,7 @@
+This is a local repository cloned from the Open Research Data do-athon repository. Here, we explore tools biologists use to analyse research data. This work was done during the do-athon on March 4-5, 2017, with major contributions from Barney (bjw49; R code and R-shiny app) and Naomi (npscience; data analysis) and acknowledgements to Bianca Kramer and Jeroen Bosman (101innovations data).
+
+## Readme from sparcopen/open-research-doathon
+
 [![Sonar tracking of tungsten ball underneath research vessel for calibration](https://upload.wikimedia.org/wikipedia/commons/d/d2/Sonar_tracking_of_tungsten_ball_underneath_research_vessel_for_calibration_%2816824332958%29.jpg)](https://commons.wikimedia.org/wiki/File:Sonar_tracking_of_tungsten_ball_underneath_research_vessel_for_calibration_(16824332958).jpg)
 
 # In brief

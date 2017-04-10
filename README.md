@@ -1,6 +1,13 @@
-This is a local repository cloned from the Open Research Data do-athon repository. Here, we explore tools biologists use to analyse research data. This work was done during the do-athon on March 4-5, 2017, with major contributions from Barney (bjw49; R code and R-shiny app) and Naomi (npscience; data analysis) and acknowledgements to Bianca Kramer and Jeroen Bosman (101innovations data).
+<<<<<<< HEAD
+=======
+# Update
 
-## Readme from sparcopen/open-research-doathon
+The event has ended, with its activities being documented in this repo itself, in the [issues](https://github.com/sparcopen/open-research-doathon/issues) and possibly elsewhere, which should be linked from the corresponding issue. We are working on [making this repo more reusable](https://github.com/sparcopen/open-research-doathon/issues/47) in case you would like to organize similar events in the future.
+
+Many of the ideas and projects worked on at the meeting still need work! You can find those [here](https://github.com/sparcopen/open-research-doathon/issues?q=is%3Aissue+label%3Apostponed+is%3Aclosed). If you want to take something forwards, re-open the issue!
+
+---
+>>>>>>> sparcopen/master
 
 [![Sonar tracking of tungsten ball underneath research vessel for calibration](https://upload.wikimedia.org/wikipedia/commons/d/d2/Sonar_tracking_of_tungsten_ball_underneath_research_vessel_for_calibration_%2816824332958%29.jpg)](https://commons.wikimedia.org/wiki/File:Sonar_tracking_of_tungsten_ball_underneath_research_vessel_for_calibration_(16824332958).jpg)
 
@@ -13,7 +20,9 @@ This is a local repository cloned from the Open Research Data do-athon repositor
 
 # Background
 
-[Open Data Day](http://opendataday.org/) is an annual international celebration of [open data](https://en.wikipedia.org/wiki/Open_data). In 2017, it takes place on March 4, and on that occasion, [lots of events](http://opendataday.org/#map) are taking place around the world, focusing on specific kinds or aspects of open data. 
+[Open Data Day](http://opendataday.org/) is an annual international celebration of [open data](https://en.wikipedia.org/wiki/Open_data). In 2017, it takes place on March 4, and on that occasion, [lots of events](http://opendataday.org/#map) are taking place around the world, focusing on specific kinds or aspects of open data.
+
+Here is [an introductory video on the topic](http://www.youtube.com/watch?v=1GYMB8QdT60).
 
 # Specifics
 
@@ -23,10 +32,9 @@ This is a local repository cloned from the Open Research Data do-athon repositor
 
 # How it works
 
-We'll be using this GitHub repository for documenting and discussing ideas before, during, and after the event, both for remote participants and everyone else who is interested. As a remote participant, expect to be able to pitch and discuss your ideas for the weekend with all attendees. We'll be using [light orange](https://github.com/sparcopen/open-research-doathon/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Avirtual%20-label%3Ameta) labels for issues specific to remote attendance, and [light purple](https://github.com/sparcopen/open-research-doathon/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Aon-site%20-label%3Ameta) for on-site issues. Note that people in the room are welcome to use the online features as well.
+We'll be using this GitHub repository for documenting and discussing ideas before, during, and after the event, both for remote participants and everyone else who is interested. We also have [a Google doc](https://docs.google.com/document/d/1gTdPPr0ZMCKv5X-_XL9au6buwV6Fz194djjw3YXSFvs/edit#) to take notes collaboratively.  As a remote participant, expect to be able to pitch and discuss your ideas for the weekend with all attendees. We'll be using [light orange](https://github.com/sparcopen/open-research-doathon/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Avirtual%20-label%3Ameta) labels for issues specific to remote attendance, and [light purple](https://github.com/sparcopen/open-research-doathon/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Aon-site%20-label%3Ameta) for on-site issues. Note that people in the room are welcome to use the online features as well.
 
 Check out the [yellow labels](https://github.com/sparcopen/open-research-doathon/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Aidea%20-label%3Ameta) for hacky ideas to work on! Feel free to propose your own, even multiple ones: having more ideas may make it easier to find people to team up with. Conversely, feel free to have a go at any of these ideas, and let us &mdash; and their proposers &mdash; know how far you've come. There are [purple](https://github.com/sparcopen/open-research-doathon/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Ainterests%20-label%3Ameta) labels for attendees to say what their interests and skills are, which is especially useful if they are not yet involved with one of the proposed ideas.
-
 To present the ideas and to inform about other topics of interest, we'll be having lightning talks, which can be tracked via the [red](https://github.com/sparcopen/open-research-doathon/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Alightning-talks%20-label%3Ameta) labels.
 
 There are also [light green](https://github.com/sparcopen/open-research-doathon/issues?q=is%3Aissue+is%3Aopen+label%3Ameta) labels that we're using to organize the event. Your participation is welcome here too.
@@ -34,6 +42,8 @@ There are also [light green](https://github.com/sparcopen/open-research-doathon/
 # Contributing
 
 For guidelines on how to contribute to this project, see [CONTRIBUTING.md](https://github.com/sparcopen/open-research-doathon/blob/master/CONTRIBUTING.md).
+
+For a list of people who actually contributed, see [here](https://josephmcarthur.github.io/do-a-thon_hatrack/Let's%20Build%20a%20Hat%20Rack.html).
 
 # Program
 
@@ -45,9 +55,25 @@ Virtual participants are encouraged to peak in on our activities any time, but w
 | March 4 | March 5 |
 | :--- | :--- |
 | 9-10 am: Breakfast | 9-10 am: Breakfast |
-| 10-12 am: Introductions & opening / [idea pitches](https://github.com/sparcopen/Open-Research-doathon/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Alightning-talks%20label%3Aidea) | 10-12 am: Working with occasional [lightning talks](https://github.com/sparcopen/open-research-doathon/labels/lightning-talks) |
+| 10-11 am: [Introductions & opening](https://github.com/sparcopen/open-research-doathon/issues/19) <br> 11-noon: [idea pitches](https://github.com/sparcopen/Open-Research-doathon/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Alightning-talks%20label%3Aidea) | 10-12 am: Working with occasional [lightning talks](https://github.com/sparcopen/open-research-doathon/labels/lightning-talks) |
 | 12-1 pm: Lunch | 12-1 pm: Lunch |
 | 1-6pm: Working with occasional [lightning talks](https://github.com/sparcopen/open-research-doathon/labels/lightning-talks)| 1-6 pm: Working with occasional [lightning talks](https://github.com/sparcopen/open-research-doathon/labels/lightning-talks) |
+| 6-11pm: [hand off to SPARC Open Data event in DC](https://www.eventbrite.com/e/open-data-impact-an-afternoon-of-conversations-and-collaboration-tickets-32395732508)
+
+# How to join remotely
+
+* Have a computer at hand.
+* Have ideas.
+* Follow [#odd4r](https://twitter.com/search?f=tweets&vertical=default&q=((%22do-a-thon%22%20OR%20doathon)%20AND%20data)%20OR%20odd4r) and announce you'll be joining us!
+* Introduce yourself [here](https://docs.google.com/document/d/1gTdPPr0ZMCKv5X-_XL9au6buwV6Fz194djjw3YXSFvs/edit#heading=h.fz9shrgyu7o2) and read other's introductions.
+* Tell us what you're working on via Twitter & [Github issues](https://github.com/sparcopen/open-research-doathon/issues).
+* [Here is a remote project pitch](http://www.youtube.com/watch?v=UMR7N193uM8) for [issue 36: R interface to anthropology database D-Place](https://github.com/sparcopen/open-research-doathon/issues/36).
+
+# How to join on-site
+
+* Same as above.
+* [Here is an in-the-room pitch](https://twitter.com/OKFN/status/838011416598700033) for [issue 35:  Newbies guide to Wikidata](https://github.com/sparcopen/open-research-doathon/issues/35).
+* Talk to people around you and online about the above.
 
 # Ideas for the Weekend
 
@@ -66,7 +92,7 @@ We're organizing ideas via this repo's [issue tracker](https://github.com/sparco
 * Writing data management plans
 * Writing data-centric grant proposals
 * Make your own data FAIR
-* Test out reproducible computational tools such as [Binder](http://mybinder.org/), [R-Shiny](https://shiny.rstudio.com/), [CodeOcean](https://codeocean.com/) [we can supply a list of resources]
+* Test out reproducible computational tools such as [Binder](http://mybinder.org/), [R-Shiny](https://shiny.rstudio.com/), [CodeOcean](https://codeocean.com/) (see [this list of resources](https://github.com/sparcopen/open-research-doathon/blob/master/reproducible_open_data_resources.md))
 * Prototype a tool to leverage the open datasets in eLife or in repositories ([Zenodo](https://zenodo.org/), [Dataverse](http://dataverse.org/), etc)
 * Prototype a tool to make it easy for researchers to share/discover/consume comprehensive, open and FAIR data
 * Devise a mechanism to incentivise deposition, review and reuse of datasets
@@ -75,7 +101,7 @@ We're organizing ideas via this repo's [issue tracker](https://github.com/sparco
 Lots of little data points, e.g. for [translucency](https://en.wikipedia.org/wiki/Transparency_and_translucency) and [light scattering](https://en.wikipedia.org/wiki/Light_scattering), [cohesion](https://en.wikipedia.org/wiki/Cohesion_(chemistry)) and [adhesion](https://en.wikipedia.org/wiki/Adhesion), [surface tension](https://en.wikipedia.org/wiki/Surface_tension), [contact angles](https://en.wikipedia.org/wiki/Contact_angle) and [hydrophobicity](https://en.wikipedia.org/wiki/Hydrophobe).
 
 # Location
-
+[![Newspeak House in London](https://upload.wikimedia.org/wikipedia/commons/f/f5/Newspeak_House_in_London_20170303_093116.jpg)](https://commons.wikimedia.org/wiki/File:Newspeak_House_in_London_20170303_093116.jpg)
 * [Newspeak House](nwspk.com), [133 Bethnal Green Rd, London E2 7DG, UK](http://www.openstreetmap.org/#map=17/51.52520/-0.07150), [@nwspk](https://twitter.com/nwspk)
 
 # Contact
@@ -87,6 +113,10 @@ Lots of little data points, e.g. for [translucency](https://en.wikipedia.org/wik
 * We will be primarily using [#odd4r](https://twitter.com/search?f=tweets&vertical=default&q=((%22do-a-thon%22%20OR%20doathon)%20AND%20data)%20OR%20odd4r) (Open Data Day for Research)
 * There are a number of [other hashtags specific to opendataday or some related events](https://twitter.com/search?f=tweets&vertical=default&q=opendataday%20OR%20%22open%20data%20day%22%20OR%20((opendata%20OR%20openscience)%20AND%20(day%20OR%20today%20OR%20event))%20OR%20opendatahack%20OR%20brainhack%20OR%20scitog%20OR%20hack4ac)
 * There are the generic hashtags for [#opendata, #openresearch and #openscience](https://twitter.com/search?f=tweets&vertical=default&q=opendata%20OR%20openresearch%20OR%20openscience%20OR%20%22open%20data%22%20OR%20%22open%20research%22%20OR%20%22open%20science%22%20OR%20openscienceprize)
+
+# Follow-up
+
+* Issues that have been worked on over the weekend and that may be suitable for further such events have been tagged with the [postponed](https://github.com/sparcopen/open-research-doathon/issues?utf8=%E2%9C%93&q=label%3Apostponed%20) label.
 
 # Licensing
 
